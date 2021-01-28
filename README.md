@@ -1,27 +1,44 @@
-# CourseManager
+<h1> CourseManager </h1>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.2.0.
+<h6> Aplicação feita no curso de Introdução ao Angular 8 oferecido pela Digital Innovation One. </h6>
 
-## Development server
+<h3> Sobre o projeto </h3>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+O projeto consiste em uma aplicação front-end feito em angular 8. Na qual, a pagina inicial lista todo o conteúdo recebido do back-end e permite que o conteúdo seja excluído ou editado. Quando é escolhido por editar, é direcionado para outra pagina para a edição dos dados ou para a criação de um novo conteúdo. O conteúdo usado no desenvolvimento foi de cursos.
 
-## Code scaffolding
+<h3> Imagens do projeto </h3>
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+<h4> Pagina inicial: </h4>
 
-## Build
+![print course list](https://user-images.githubusercontent.com/53447664/106157414-72c27280-6161-11eb-8945-8f3b0343f90b.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+<h4> Pagina de edição: </h4>
 
-## Running unit tests
+![print course info](https://user-images.githubusercontent.com/53447664/106157494-853cac00-6161-11eb-8e7a-f6d9d1838549.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<h3> Executando o projeto </h3>
 
-## Running end-to-end tests
+<h5> Para executar o projeto, é necessário ter o Node.js e o AngularCli instalado. </h5>
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+<h6> Primeiro devemos executar o back-end. </h6>
 
-## Further help
+No caminho: ‘Course-Manager/src/assets/serve/’, temos dois arquivos:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<ul>
+	<li>package.json</li>
+  <li>serve.js</li>
+</ul>
+
+Copie esses arquivos para uma pasta fora do projeto, abra essa pasta no terminal e execute o comando:
+
+<b> node serve.js </b>
+
+<h6> Agora vamos executar o front-end. </h6>
+
+Para executar o front-end, basta abrir o projeto com o terminal e executar o comando:
+
+<b> ng serve </b>
+
+A aplicação vai rodar no link:
+
+<b> http://localhost:4200/ </b>
