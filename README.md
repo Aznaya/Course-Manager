@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/jnsAntunes/Course-Manager.svg?branch=main)](https://travis-ci.com/jnsAntunes/Course-Manager)
+
 <h1> CourseManager </h1>
 
 <h6> Aplicação feita no curso de Introdução ao Angular 8 oferecido pela Digital Innovation One. </h6>
